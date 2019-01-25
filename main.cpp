@@ -24,9 +24,9 @@ int main()
 	std::cout << _TypeBricks::L_up_top_right << " ..." << _TypeBricks::L_up_top_left;*/
 
 	
-	Brick br { _Point{0, 3}, _TypeBricks::L_down_left_top };
+	Brick br { _Point{5, 3}, _TypeBricks::L_down_right_top };
 	_Br_draw(br);
-
+	_Co_gotoxy(_Point{10,10});
 	system("pause");
 	return 0;
 }

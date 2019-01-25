@@ -16,6 +16,7 @@ struct _Size
 
 enum _SizeBox { width = 2, height = 1 };
 
+
 enum _TypeBricks {
 	L_up_top_right = 11, L_up_top_left = 19, L_up_bottom_right, L_up_bottom_left,
 	L_down_right_top, L_down_right_bottom, L_down_left_top, L_down_left_bottom,
