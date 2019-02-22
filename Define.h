@@ -14,13 +14,15 @@ struct _Size
 	int height;
 };
 
+enum _Move {Right, Left, Down, Stand};
+
 enum _SizeBox { width = 2, height = 1 };
 
 
 enum _TypeBricks {
-	L_up_top_right = 11, L_up_top_left = 19, L_up_bottom_right, L_up_bottom_left,
-	L_down_right_top, L_down_right_bottom, L_down_left_top, L_down_left_bottom,
-	T_top, T_right, T_bottom, T_left,
-	Z_up_right, Z_up_left, Z_down_right, Z_down_left,
-	Stick, Square
+	L_up_top_right = 1, L_up_top_left = 2, L_up_bottom_right = 3, L_up_bottom_left = 4,
+	L_down_right_top = 5, L_down_right_bottom = 6, L_down_left_top = 7, L_down_left_bottom = 8,
+	T_top = 11, T_right = 12, T_bottom = 13, T_left = 14,
+	Z_up_right = 16, Z_up_left = 17, Z_down_right = 18, Z_down_left = 19,
+	Stick_up = 21, Stick_down = 22, Square = 30
 };

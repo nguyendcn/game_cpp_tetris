@@ -6,7 +6,10 @@
 struct Brick
 {
 	_Point main_Coordinate;
+	_Point old_Coor;
 	_TypeBricks type;
+	_Move dir;
 };
 
 void _Br_draw(Brick br);
+void dis_eraseBox(_Point p);
