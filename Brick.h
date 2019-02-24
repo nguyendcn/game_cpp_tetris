@@ -12,4 +12,4 @@ struct Brick
 };
 
 void _Br_draw(Brick br);
-void dis_eraseBox(_Point p);
+void _Br_eraseOld(Brick br);
